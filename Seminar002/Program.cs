@@ -98,7 +98,18 @@
 //     }
 //     number++;
 // }
+// Еще вариант
 
+// string n = Console.ReadLine();
+// int num = Convert.ToInt32(n);
+// if(num < 100)
+// {
+//     //
+// }
+// else if (num < 1000)
+// {
+//     Console.WriteLine(n[2]);
+// }
 // Задача 15: Напишите программу, которая принимает на вход цифру, обозначающую день недели, 
 // и проверяет, является ли этот день выходным.
 
@@ -116,3 +127,9 @@
 //     Console.WriteLine("Такого числа - нет");
 // }
 
+// //Конкантенация
+// string s1 = "GeekBrains";
+// string s2 = "Python";
+// string s3 = "c8";
+
+// string s = s1 + s2 + s3;
