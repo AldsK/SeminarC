@@ -203,34 +203,13 @@
 
 // [3 7 22 2 78] -> 76
 
-// НЕ ЗНАЮ КУДА ЗАПИХНУТЬ ПЕРЕМЕННЫЕ MAX и MIN, 
-// ЧТОБЫ ПРОГРАММА ИХ ВИДЕЛА. САМ АЛГОРИТМ ПОИСКА ЗНАЮ. СДЕЛАЛ ВРУЧНУЮ, СМ. НИЖЕ.
-int[] array = new int[5];
-for (int i = 0; i < array.Length; i++)
-{
-    array[i] = new Random().Next(10, 100);
-}
-Console.WriteLine($"[{String.Join(",", array)}]");
-int sum = 0;
-int max = array[0];
-int min = array[0];
-for (int i = 0; i < array.Length; i++)
-{
-    if(array[i] > max)
-    {
-        max = array[i];
-        // Console.WriteLine(max);
-    }
-    if(array[i] < min)
-    {
-        min = array[i];
-        // Console.WriteLine(min);
-    }
-}
 
-Console.WriteLine($"Разница между максимальным и минимальным элементом массива = {max - min}");
-
-// int[] array = {1, 20, 33, 54, 32, 96};
+// int[] array = new int[5];
+// for (int i = 0; i < array.Length; i++)
+// {
+//     array[i] = new Random().Next(10, 100);
+// }
+// Console.WriteLine($"[{String.Join(",", array)}]");
 // int sum = 0;
 // int max = array[0];
 // int min = array[0];
@@ -239,11 +218,13 @@ Console.WriteLine($"Разница между максимальным и мин
 //     if(array[i] > max)
 //     {
 //         max = array[i];
+//         // Console.WriteLine(max);
 //     }
 //     if(array[i] < min)
 //     {
 //         min = array[i];
+//         // Console.WriteLine(min);
 //     }
 // }
-// sum = max - min;
-// Console.WriteLine($"Разница между максимальным и минимальным элементом массива = {sum}");
+// Console.WriteLine($"Разница между максимальным и минимальным элементом массива = {max - min}");
+
